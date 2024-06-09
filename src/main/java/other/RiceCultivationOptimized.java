@@ -1,4 +1,4 @@
-package other;
+package main.java.other;
 
 import java.util.PriorityQueue;
 import java.util.Queue;

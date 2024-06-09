@@ -1,4 +1,4 @@
-package gfg;
+package main.java.gfg;
 
 import java.util.HashMap;
 import java.util.HashSet;
