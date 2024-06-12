@@ -7,8 +7,12 @@ import java.io.InputStreamReader;
 public class Team_231_A {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int t = Integer.parseInt(br.readLine());
 
+        team_231_A_Solution(br);
+    }
+
+    private static void team_231_A_Solution(BufferedReader br) throws IOException {
+        int t = Integer.parseInt(br.readLine());
         int res = 0;
 
         while (t-- > 0) {

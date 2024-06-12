@@ -10,6 +10,10 @@ public class PetyaAndStrings_112_A {
         String a = br.readLine();
         String b = br.readLine();
 
+        petyaAndStrings_112_A_Solution(a, b);
+    }
+
+    private static void petyaAndStrings_112_A_Solution(String a, String b) {
         for (int i = 0; i < a.length(); i++) {
             if (Character.toLowerCase(a.charAt(i)) < Character.toLowerCase(b.charAt(i))) {
                 System.out.println("-1");

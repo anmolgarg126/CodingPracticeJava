@@ -11,6 +11,10 @@ public class BoyOrGirl_236_A {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String input = bufferedReader.readLine();
 
+        boyOrGirl_236_A_Solution(input);
+    }
+
+    private static void boyOrGirl_236_A_Solution(String input) {
         Set<Character> set = new HashSet<>();
         for (int i = 0; i < input.length(); i++) {
             set.add(input.charAt(i));

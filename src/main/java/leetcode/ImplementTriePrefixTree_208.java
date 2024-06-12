@@ -5,20 +5,20 @@ import main.java.leetcode.common.TrieNode;
 import java.util.Arrays;
 import java.util.List;
 
-public class ImplementTriePrefixTree208 {
+public class ImplementTriePrefixTree_208 {
     public static void main(String[] args) {
-        Solution1 solution = new Solution1();
+        var obj = new ImplementTriePrefixTree_208_Solution();
         String[] dictionary = new String[]{"cat", "bat", "rat"};
         String sentence = "the cattle was rattled by the battery";
-        System.out.println(solution.replaceWords(Arrays.asList(dictionary), sentence));
+        System.out.println(obj.replaceWords(Arrays.asList(dictionary), sentence));
     }
 }
 
 
-class Solution1 {
+class ImplementTriePrefixTree_208_Solution {
     private final TrieNode root;
 
-    public Solution1() {
+    public ImplementTriePrefixTree_208_Solution() {
         root = new TrieNode();
     }
 

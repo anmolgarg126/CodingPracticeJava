@@ -9,6 +9,10 @@ public class Watermelon_4_A {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
 
+        watermelon_4_A_Solution(n);
+    }
+
+    private static void watermelon_4_A_Solution(int n) {
         if (n > 2 && n % 2 == 0) {
             System.out.println("YES");
         } else {

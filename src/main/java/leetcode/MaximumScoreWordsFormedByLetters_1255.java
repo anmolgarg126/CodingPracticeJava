@@ -3,7 +3,7 @@ package main.java.leetcode;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class MaximumScoreWordsFormedByLetters1255 {
+public class MaximumScoreWordsFormedByLetters_1255 {
     int[] freq = new int[26];
     int res = 0;
 
@@ -15,7 +15,7 @@ public class MaximumScoreWordsFormedByLetters1255 {
         int[] score = new int[]{1, 0, 9, 5, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 //        int[] score = new int[]{4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 10};
 
-        var obj = new MaximumScoreWordsFormedByLetters1255();
+        var obj = new MaximumScoreWordsFormedByLetters_1255();
 //        System.out.println(obj.maxScoreWords(words, letters, score));
         System.out.println(findPlatform(new int[]{900, 940, 950, 1100, 1500, 1800}, new int[]{910, 1200, 1120, 1130, 1900, 2000}, 6));
     }

@@ -3,7 +3,7 @@ package main.java.leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MinimumWindowSubstring76 {
+public class MinimumWindowSubstring_76 {
     public static void main(String[] args) {
 //        System.out.println(minWindow("ADOBECODEBANC", "ABC"));
 //        System.out.println(minWindow("a", "a"));

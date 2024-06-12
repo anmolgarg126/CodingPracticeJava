@@ -8,7 +8,11 @@ public class Elephant_617_A {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int input = Integer.parseInt(br.readLine());
+        elephant_617_A_Solution(input);
 
+    }
+
+    private static void elephant_617_A_Solution(int input) {
         int result = 0;
 
         result += input / 5;
@@ -26,6 +30,5 @@ public class Elephant_617_A {
         result += input;
 
         System.out.println(result);
-
     }
 }

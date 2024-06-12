@@ -3,10 +3,10 @@ package main.java.leetcode;
 import java.util.LinkedList;
 import java.util.List;
 
-public class PalindromePartitioning131 {
+public class PalindromePartitioning_131 {
     public static void main(String[] args) {
-        var palindromePartitioning131 = new PalindromePartitioning131();
-        System.out.println(palindromePartitioning131.partition("aab"));
+        var ob = new PalindromePartitioning_131();
+        System.out.println(ob.partition("aab"));
     }
 
     List<List<String>> result = new LinkedList<>();

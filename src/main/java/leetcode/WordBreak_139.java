@@ -5,10 +5,10 @@ import main.java.leetcode.common.TrieNode;
 import java.util.Arrays;
 import java.util.List;
 
-public class WordBreak139 {
+public class WordBreak_139 {
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        WordBreak_139_Solution solution = new WordBreak_139_Solution();
         String[] dictionary = new String[]{"aaaa", "aaa"};
         String sentence = "aaaaaaa";
         System.out.println(solution.wordBreak(sentence, Arrays.asList(dictionary)));
@@ -16,10 +16,10 @@ public class WordBreak139 {
 }
 
 
-class Solution {
+class WordBreak_139_Solution {
     private final TrieNode root;
 
-    public Solution() {
+    public WordBreak_139_Solution() {
         root = new TrieNode();
     }
 

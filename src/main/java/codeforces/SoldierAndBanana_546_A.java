@@ -10,6 +10,11 @@ public class SoldierAndBanana_546_A {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] input = br.readLine().split("\\s+");
 
+        soldierAndBanana_546_A_Solution(input);
+
+    }
+
+    private static void soldierAndBanana_546_A_Solution(String[] input) {
         // AP ka formula lagega. A=0, d = cost of first banana
 
         long costOfFirstBanana = Long.parseLong(input[0]), money = Long.parseLong(input[1]), bananasToBuy = Long.parseLong(input[2]);
@@ -18,9 +23,8 @@ public class SoldierAndBanana_546_A {
         long a = 0;
         long nthTerm = a + (bananasToBuy) * costOfFirstBanana;
 
-        long totalMoneyRequired = ((bananasToBuy+1) * (a + nthTerm)) / 2;
+        long totalMoneyRequired = ((bananasToBuy + 1) * (a + nthTerm)) / 2;
 
         System.out.println(money >= totalMoneyRequired ? "0" : totalMoneyRequired - money);
-
     }
 }
