@@ -1,6 +1,6 @@
 package main.java.leetcode;
 
-import main.java.leetcode.common.TrieNode;
+import main.java.common.TrieNode;
 
 import java.util.Arrays;
 import java.util.List;

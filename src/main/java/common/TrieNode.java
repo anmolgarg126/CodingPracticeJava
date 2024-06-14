@@ -1,4 +1,4 @@
-package main.java.leetcode.common;
+package main.java.common;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,4 +11,5 @@ public class TrieNode {
         children = new HashMap<>();
         endOfWord = false;
     }
+
 }

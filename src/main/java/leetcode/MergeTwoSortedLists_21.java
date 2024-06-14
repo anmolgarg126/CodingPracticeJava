@@ -1,6 +1,6 @@
 package main.java.leetcode;
 
-import main.java.leetcode.common.ListNode;
+import main.java.common.ListNode;
 
 public class MergeTwoSortedLists_21 {
     public static void main(String[] args) {
@@ -23,10 +23,7 @@ public class MergeTwoSortedLists_21 {
         t2.next.next = new ListNode(4);
 
         ListNode listNode = mergeTwoLists(l1, l2);
-        while (listNode != null) {
-            System.out.print(listNode.val);
-            listNode = listNode.next;
-        }
+        System.out.println(listNode.print(listNode));
     }
 
 
