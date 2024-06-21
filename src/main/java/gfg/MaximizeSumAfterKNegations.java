@@ -2,11 +2,16 @@ package main.java.gfg;
 
 import java.util.*;
 
+/*
+Question: Maximize sum after K negations
+Link: https://www.geeksforgeeks.org/problems/maximize-sum-after-k-negations1149
+ */
+
 public class MaximizeSumAfterKNegations {
     static List<List<Integer>> res = new LinkedList<>();
 
     public static void main(String[] args) {
-//        System.out.println(maximizeSum(new long[]{-1, -2, -3, -4, -5}, 5, 10));
+        System.out.println(maximizeSum(new long[]{-1, -2, -3, -4, -5}, 5, 10));
 //        System.out.println(catchThieves(new char[]{'P', 'T', 'T', 'P', 'T'}, 5, 1));
 //        System.out.println(max_of_subarrays(new int[]{9, 10, 9, -7, -4, -8, 2, -6}, 8, 5));
         System.out.println(isNStraightHand(new int[]{1, 2, 3, 6, 2, 3, 4, 7, 8}, 3));
@@ -50,7 +55,7 @@ public class MaximizeSumAfterKNegations {
         }
 
 
-        while (k > 0) {
+        while (k > 0 && !pq.isEmpty()) {
             if (pq.peek() < 0) {
                 long temp = pq.poll();
                 pq.add(-temp);
@@ -60,7 +65,7 @@ public class MaximizeSumAfterKNegations {
             }
         }
 
-        if (k % 2 != 0) {
+        if (k % 2 != 0 && !pq.isEmpty()) {
             long temp = pq.poll();
             pq.add(-temp);
         }

@@ -5,6 +5,11 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+/*
+Question: Smallest distinct window
+Link: https://www.geeksforgeeks.org/problems/smallest-distant-window3132
+ */
+
 public class SmallestDistinctWindow {
     public static void main(String[] args) {
         SmallestDistinctWindow distinctWindow = new SmallestDistinctWindow();
