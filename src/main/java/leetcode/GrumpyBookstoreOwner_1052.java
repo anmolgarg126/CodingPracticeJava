@@ -4,9 +4,9 @@ package main.java.leetcode;
 Question: 1052. Grumpy Bookstore Owner
 Link: https://leetcode.com/problems/grumpy-bookstore-owner
  */
-public class GrumpyBookstoreOwner {
+public class GrumpyBookstoreOwner_1052 {
     public static void main(String[] args) {
-        var obj = new GrumpyBookstoreOwner();
+        var obj = new GrumpyBookstoreOwner_1052();
         System.out.println(obj.maxSatisfied(new int[]{1, 0, 1, 2, 1, 1, 7, 5}, new int[]{0, 1, 0, 1, 0, 1, 0, 1}, 3));
         System.out.println(obj.maxSatisfied(new int[]{1}, new int[]{0}, 1));
         System.out.println(obj.maxSatisfied(new int[]{3}, new int[]{1}, 1));

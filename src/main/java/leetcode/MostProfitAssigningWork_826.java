@@ -9,9 +9,9 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class MostProfitAssigningWork {
+public class MostProfitAssigningWork_826 {
     public static void main(String[] args) {
-        var obj = new MostProfitAssigningWork();
+        var obj = new MostProfitAssigningWork_826();
         obj.testCase1();
         obj.testCase2();
     }

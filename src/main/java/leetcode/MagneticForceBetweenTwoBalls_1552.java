@@ -8,9 +8,9 @@ Link: https://leetcode.com/problems/magnetic-force-between-two-balls
  */
 
 // TODO:: not complete
-public class MagneticForceBetweenTwoBalls {
+public class MagneticForceBetweenTwoBalls_1552 {
     public static void main(String[] args) {
-        var obj = new MagneticForceBetweenTwoBalls();
+        var obj = new MagneticForceBetweenTwoBalls_1552();
         System.out.println(obj.maxDistance(new int[]{1, 2, 3, 4, 7}, 3));
         System.out.println(obj.maxDistance(new int[]{5, 4, 3, 2, 1, 1000000000}, 2));
     }
