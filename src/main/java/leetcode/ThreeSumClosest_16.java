@@ -6,9 +6,9 @@ import java.util.Arrays;
 Question: 16. 3Sum Closest
 Link: https://leetcode.com/problems/3sum-closest
  */
-public class ThreeSumClosest {
+public class ThreeSumClosest_16 {
     public static void main(String[] args) {
-        var obj = new ThreeSumClosest();
+        var obj = new ThreeSumClosest_16();
         System.out.println(obj.threeSumClosest(new int[]{-1, 0, 1, 2, -1, -4}, 3));
         System.out.println(obj.threeSumClosest(new int[]{-1, 2, 1, -4}, 1));
         System.out.println(obj.threeSumClosest(new int[]{0, 0, 0}, 1));
