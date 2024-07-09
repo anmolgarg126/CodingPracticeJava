@@ -2,6 +2,8 @@ package main.java.leetcode;
 
 import main.java.common.ListNode;
 
+import static main.java.common.ListNode.printListNode;
+
 public class MergeTwoSortedLists_21 {
     public static void main(String[] args) {
         var obj = new MergeTwoSortedLists_21();
@@ -23,7 +25,7 @@ public class MergeTwoSortedLists_21 {
         t2.next.next = new ListNode(4);
 
         ListNode listNode = mergeTwoLists(l1, l2);
-        System.out.println(listNode.print(listNode));
+        System.out.println(printListNode(listNode));
     }
 
 
