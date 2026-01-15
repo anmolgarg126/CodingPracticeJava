@@ -6,9 +6,9 @@ import java.util.List;
 Question: 3350. Adjacent Increasing Subarrays Detection II
 Link: https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/description
  */
-public class AdjacentIncreasingSubarraysDetection2_3350 {
+public class AdjacentIncreasingSubarraysDetection_II_3350 {
     public static void main(String[] args) {
-        var obj = new AdjacentIncreasingSubarraysDetection2_3350();
+        var obj = new AdjacentIncreasingSubarraysDetection_II_3350();
         System.out.println(obj.maxIncreasingSubarrays(List.of(2, 5, 7, 8, 9, 2, 3, 4, 3, 1)));
         System.out.println(obj.maxIncreasingSubarrays(List.of(1, 2, 3, 4, 4, 4, 4, 5, 6, 7)));
     }

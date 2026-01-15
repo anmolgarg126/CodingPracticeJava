@@ -14,7 +14,6 @@ public class TwoSum {
     }
 
     static ArrayList<Pair<Integer, Integer>> twoSum(ArrayList<Integer> arr, int target, int n) {
-        // Write your code here.
         Map<Integer, Integer> map = new HashMap<>();
         ArrayList<Pair<Integer, Integer>> res = new ArrayList<>();
 

@@ -18,9 +18,10 @@ public class ListNode {
 
     public static String printListNode(ListNode head) {
         StringBuilder sb = new StringBuilder();
-        while (head != null) {
-            sb.append(head.val).append("->");
-            head = head.next;
+        ListNode dummy = head;
+        while (dummy != null) {
+            sb.append(dummy.val).append("->");
+            dummy = dummy.next;
         }
         return sb.substring(0, sb.length() - 2);
     }
